@@ -1,5 +1,15 @@
 # HC
 
-# Building
+# Building conda pkg
 
-conda build .
+```bash
+export CONDA_SSH_ALIAS=conda_server
+export INDEX_CMD='~/bin/pull_conda'
+./upload.sh
+```
+
+# Building docker
+
+```bash
+docker build --build-arg CONDA_REPO=http://my_conda_repo.example.com/conda/channel .
+```
