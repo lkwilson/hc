@@ -12,10 +12,9 @@ def main():
     else:
         res = set_off()
     if res:
-        print('ok')
+        print("ok")
     else:
-        print('already', args.state)
-
+        print("already", args.state)
 
 
 if __name__ == "__main__":

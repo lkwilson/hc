@@ -1,5 +1,5 @@
 package:
-  name: lw_hello
+  name: hc
   version: 1.0.0
 
 source:
@@ -21,14 +21,14 @@ requirements:
 
 test:
   imports:
-    - lw_hello
+    - hc
 
 about:
-  home: https://github.com/lkwilson/hello
+  home: https://github.com/lkwilson/hc
   license: MIT
-  summary: 'Says hello'
-  description: 'Says hello'
-  dev_url: https://github.com/lkwilson/hello
-  doc_url: https://github.com/lkwilson/hello
-  doc_source_url: https://github.com/lkwilson/hello
+  summary: 'Library to control outlets'
+  description: 'Library to control outlets'
+  dev_url: https://github.com/lkwilson/hc
+  doc_url: https://github.com/lkwilson/hc
+  doc_source_url: https://github.com/lkwilson/hc
 
