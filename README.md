@@ -11,5 +11,11 @@ export INDEX_CMD='~/bin/pull_conda'
 # Building docker
 
 ```bash
-docker build --build-arg CONDA_REPO=http://my_conda_repo.example.com/conda/channel .
+docker build -t hc --build-arg CONDA_REPO=http://my_conda_repo.example.com/conda/channel .
+```
+
+# Running in docker
+
+```
+docker compose up
 ```
