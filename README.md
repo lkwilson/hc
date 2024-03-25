@@ -1,1 +1,5 @@
 # HC
+
+# Building
+
+conda build .

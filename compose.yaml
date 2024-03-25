@@ -1,0 +1,5 @@
+services:
+  hc:
+    image: hc
+    ports:
+      - "8123:8080"
